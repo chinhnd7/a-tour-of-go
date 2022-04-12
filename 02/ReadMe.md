@@ -20,3 +20,23 @@ Golang có cú pháp đặc biệt gọi là if assignment gồm 2 vế:
 ```
 > Luôn bắt lỗi, kiểm tra và xử lý.
 ```
+
+## 3. Khai báo map
+Syntax: 
+```go
+// dictionary := make(map[string]string)
+dictionary := map[string]string{}      --- recommended
+```
+
+## 4. Golang cung cấp 2 kỹ thuật Test
+1. Unit Test kiểm thử logic chạy có theo ý đồ lập trình viên hay không
+2. Benchmark kiểm thử tốc độ thực thi
+
+Chúng ta có thể viết file *test.go nằm trong cùng package hoặc package riêng.
+
+File unit test hay benchmark luôn phải kết thúc bằng `test.go`
+
+Hàm benchmark luôn phải bắt đầu bằng `func Benchmark`
+
+## 5. Khai báo mảng sử dụng anonymous struct
+Cách này vừa khai báo mảng chứa các struct. Không cần ghi rõ tên struct mà chỉ cần các thuộc tính bên trong struct. Sau khi khai báo xong, thì khởi tạo dữ liệu luôn
