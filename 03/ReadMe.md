@@ -9,3 +9,6 @@ Golang không có class chỉ có Struct
 ## 2. Pointer
 Syntax:
 `test : = new(int) // <=> var test *int`
+
+`var pointer *int` giá trị lúc này sẽ là nil
+`pointer := new (int)` giá trị lúc này đã được cấp phát địa chỉ
